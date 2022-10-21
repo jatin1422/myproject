@@ -1,1 +1,2 @@
-A new test case of about java by  me.
+//A new test case of  java add by  me.
+//  a good lecture all about   automation testing .

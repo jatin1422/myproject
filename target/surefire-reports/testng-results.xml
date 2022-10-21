@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-20T17:04:10 IST" name="Suite" finished-at="2022-10-20T17:04:10 IST" duration-ms="37">
+    <groups>
+      <group name="regression">
+        <method signature="GroupsTest.login2()[pri:0, instance:com.testNG.GroupsTest@243c4f91]" name="login2" class="com.testNG.GroupsTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupsTest.login()[pri:0, instance:com.testNG.GroupsTest@243c4f91]" name="login" class="com.testNG.GroupsTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupsTest.login2()[pri:0, instance:com.testNG.GroupsTest@243c4f91]" name="login2" class="com.testNG.GroupsTest"/>
+        <method signature="GroupsTest.login3()[pri:0, instance:com.testNG.GroupsTest@243c4f91]" name="login3" class="com.testNG.GroupsTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-10-20T17:04:10 IST" name="Test" finished-at="2022-10-20T17:04:10 IST" duration-ms="37">
+      <class name="com.testNG.GroupsTest">
+        <test-method signature="login()[pri:0, instance:com.testNG.GroupsTest@243c4f91]" started-at="2022-10-20T17:04:10 IST" name="login" finished-at="2022-10-20T17:04:10 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login2()[pri:0, instance:com.testNG.GroupsTest@243c4f91]" started-at="2022-10-20T17:04:10 IST" name="login2" finished-at="2022-10-20T17:04:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method signature="login3()[pri:0, instance:com.testNG.GroupsTest@243c4f91]" started-at="2022-10-20T17:04:10 IST" name="login3" finished-at="2022-10-20T17:04:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login3 -->
+      </class> <!-- com.testNG.GroupsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
